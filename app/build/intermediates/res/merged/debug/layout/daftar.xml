@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="penduduk.sipepen.daftar"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="18dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/namapengguna"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:hint="Nama Lengkap"
+                android:layout_marginBottom="15dp"
+                android:background="#f1f1f1"
+                android:textSize="14sp"
+                android:paddingLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textEmailAddress"
+                android:hint="Alamat Email"
+                android:layout_marginBottom="15dp"
+                android:background="#f1f1f1"
+                android:textSize="14sp"
+                android:paddingLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/katasandi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPassword"
+                android:hint="Kata Sandi"
+                android:layout_marginBottom="15dp"
+                android:background="#f1f1f1"
+                android:textSize="14sp"
+                android:paddingLeft="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPassword"
+                android:hint="Ulangi Kata Sandi"
+                android:layout_marginBottom="15dp"
+                android:background="#f1f1f1"
+                android:textSize="14sp"
+                android:paddingLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btnbuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:layout_marginTop="15dp"
+                android:text="Buat akun"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp"
+                android:onClick="checkSimpan"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

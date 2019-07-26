@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:5:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\USER\.android\build-cache\960f3061f6900409593239b9d1d86ff175e967bb\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\9b372519059d4ee762ab6be0d4d3d1d7de3e7f63\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\3b9a847449cba51f1ce4223a96c860cea70bb657\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4fed36af69207206998fd601f3a2060ddacf8377\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\USER\.android\build-cache\33058dcb071ec57e10bad1aa9445a4fff29775e8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\1f2a0cef63cae906e6f26fdeecc4913f40d961de\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\86547963a99c2f4053124a6fa5c884ec5b610a4a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\e6c43b683373decdf451ea0686f1de1cf462a5bd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\eb3263f271cefdd246fb3dc1f3b1e4d2696c0d46\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\b798a84fe998a8074bdfa5c6a8b8b38064d6a321\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\ea0e38c891cc73541ce4eb05257c67ee6b83ec6c\output\AndroidManifest.xml:29:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\USER\.android\build-cache\94c6af94ce5e33214f45f84945c07ccefd045513\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:11:9-40
+activity#penduduk.sipepen.MainActivity
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:13:9-16:59
+	android:label
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:15:13-45
+	android:theme
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:14:13-41
+activity#penduduk.sipepen.login
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:17:9-19:59
+	android:theme
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:18:13-34
+activity#penduduk.sipepen.splashscreen
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:20:9-28:16
+	android:theme
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:21:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:26:27-74
+activity#penduduk.sipepen.daftar
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:30:9-32:50
+	android:label
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:32:13-47
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:31:13-35
+uses-permission#android.permission.INTERNET
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:35:5-67
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:35:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml:36:22-76
+uses-sdk
+INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\USER\.android\build-cache\960f3061f6900409593239b9d1d86ff175e967bb\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\9b372519059d4ee762ab6be0d4d3d1d7de3e7f63\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\3b9a847449cba51f1ce4223a96c860cea70bb657\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4fed36af69207206998fd601f3a2060ddacf8377\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\USER\.android\build-cache\09ad830d6c44aecfa86c1319044b3dbff5ee8f6d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\USER\.android\build-cache\33058dcb071ec57e10bad1aa9445a4fff29775e8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\1f2a0cef63cae906e6f26fdeecc4913f40d961de\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\86547963a99c2f4053124a6fa5c884ec5b610a4a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\e6c43b683373decdf451ea0686f1de1cf462a5bd\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\eb3263f271cefdd246fb3dc1f3b1e4d2696c0d46\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\b798a84fe998a8074bdfa5c6a8b8b38064d6a321\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\ea0e38c891cc73541ce4eb05257c67ee6b83ec6c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\USER\.android\build-cache\94c6af94ce5e33214f45f84945c07ccefd045513\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+		INJECTED from D:\KULI AH\SEMESTER 8\sipepen\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\9b372519059d4ee762ab6be0d4d3d1d7de3e7f63\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\3b9a847449cba51f1ce4223a96c860cea70bb657\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4fed36af69207206998fd601f3a2060ddacf8377\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\USER\.android\build-cache\09ad830d6c44aecfa86c1319044b3dbff5ee8f6d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\USER\.android\build-cache\33058dcb071ec57e10bad1aa9445a4fff29775e8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\1f2a0cef63cae906e6f26fdeecc4913f40d961de\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\86547963a99c2f4053124a6fa5c884ec5b610a4a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\e6c43b683373decdf451ea0686f1de1cf462a5bd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\eb3263f271cefdd246fb3dc1f3b1e4d2696c0d46\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\b798a84fe998a8074bdfa5c6a8b8b38064d6a321\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\ea0e38c891cc73541ce4eb05257c67ee6b83ec6c\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\USER\.android\build-cache\a458e35d4f099339d4070320399951d36404ec58\output\AndroidManifest.xml:26:9-47

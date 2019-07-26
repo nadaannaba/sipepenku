@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SiPePen</string>
+    <string name="registrasi">Daftar Akun</string>
+    <string name="menutambahdata">Tambah Data</string>
+    <string name="menudatapenduduk">Data Penduduk</string>
+    <string name="menustatistik">Statistik Penduduk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_pendidikan">
+        <item>Sekolah Dasar</item>
+        <item>Sekolah Menengah Pertama</item>
+        <item>Sekolah Menengah Atas</item>
+        <item>Sekolah Menengah Kejuruan</item>
+        <item>Sarjana</item>
+        <item>Magister</item>
+        <item>Doktor</item>
+        <item>Profesor</item>
+    </string-array>
+
+    <string-array name="spinner_jeniskelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="spinner_statushidup">
+        <item>Hidup</item>
+        <item>Meninggal</item>
+    </string-array>
+
+    <string-array name="spinner_agama">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+    </string-array>
+
+    <string-array name="spinner_statusnikah">
+        <item>Belum Menikah</item>
+        <item>Menikah</item>
+    </string-array>
+
+    <string-array name="spinner_statuskeluarga">
+        <item>Suami</item>
+        <item>Isteri</item>
+        <item>Anak</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

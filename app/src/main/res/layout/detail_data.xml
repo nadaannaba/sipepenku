@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="penduduk.sipepen.DetailData"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Nama Lengkap"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/anama"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.60"
+                    android:textSize="16sp"
+                    android:background="#f1f1f1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Nomor ID"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/anomor"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.60"
+                    android:inputType="number"
+                    android:background="#f1f1f1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Jenis Kelamin"
+                    android:textSize="14sp"/>
+
+                <Spinner
+                    android:id="@+id/spinkelamin"
+                    android:entries="@array/spinner_jeniskelamin"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="TTL"
+                    android:textSize="14sp"
+                    android:layout_weight="0.40"/>
+
+                <EditText
+                    android:id="@+id/atgllahir"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.60"
+                    android:background="#f1f1f1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Alamat"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/aalamat"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.60"
+                    android:background="#f1f1f1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Status Hidup"
+                    android:textSize="14sp"
+                    android:layout_weight="0.40"/>
+
+                <Spinner
+                    android:id="@+id/spinstatushidup"
+                    android:entries="@array/spinner_statushidup"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Pendidikan"
+                    android:textSize="14sp"/>
+
+                <Spinner
+                    android:id="@+id/spinpendidikan"
+                    android:entries="@array/spinner_pendidikan"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Agama"
+                    android:textSize="14sp"/>
+
+                <Spinner
+                    android:id="@+id/spinagama"
+                    android:entries="@array/spinner_agama"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Pekerjaan"
+                    android:textSize="14sp"/>
+
+                <EditText
+                    android:id="@+id/apekerjaan"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.60"
+                    android:background="#f1f1f1"
+                    android:paddingLeft="10dp"
+                    android:layout_height="40dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.40"
+                    android:text="Status"
+                    android:textSize="14sp"/>
+
+                <Spinner
+                    android:id="@+id/spinstatusnikah"
+                    android:entries="@array/spinner_statusnikah"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Status Keluarga"
+                    android:textSize="14sp"
+                    android:layout_weight="0.40"/>
+
+                <Spinner
+                    android:id="@+id/spinstatuskeluarga"
+                    android:entries="@array/spinner_statuskeluarga"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.60"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="14sp"
+                    android:background="#f1f1f1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnubah"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:text="Ubah"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/btnhapus"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:text="Hapus"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Thu Jul 25 21:27:26 ICT 2019
+base.0=D\:\\KULI AH\\SEMESTER 8\\sipepen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\KULI AH\\SEMESTER 8\\sipepen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
